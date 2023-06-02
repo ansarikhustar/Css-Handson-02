@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url('https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-2381.jpg?w=826&t=st=1685621529~exp=1685622129~hmac=ad606b52deced4c647481cb6bd34d77e4c0da89523e0c037b7e62174b75f3632');
+    background-size:cover ;
+    border: 10px groove green;
+    width: 98%;
+    height: auto;
+
+
+    
+
+}
+.parent{
+    width: 98%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child{
+    width: 25%;
+    height:140px;
+    background-color:black;
+    color:white;
+    border: 5px solid red;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-radius: 30px;
+    line-height: 30px;
+    padding-top: 10px;
+    
+}
+
+
+
+.child1{
+   
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-left: 18px;
+
+}
+
+.child2{
+    width: 30%;
+    height: 40px;
+    margin-left:-250px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.child3{
+  
+    padding-left: 20px;
+    padding-top : 10px;
+    margin-right: 4%;
+}
+
+.child4{
+    padding-left: 30%;
+    padding-top: 25%;
+    margin-top: 5%;
+
+}
+
+.child5{
+    padding-left: 30px;
+    margin-top: 2%;
+
+}
+.child6{
+    padding-left: 80px;
+    margin-top: 5%;
+
+}
+
+.parent1{
+    width: 325px;
+    height: 325px;
+    border: 5px solid gray;
+    border-radius: 50%; 
+    background-color: aqua;
+    margin-left: 5%;
+    margin-top: 10%;
+    
+}
+
+.parent3{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.form1{
+width: 30%;
+height: auto;
+border: 5px dashed red;
+background-color: white;
+line-height: 25px;
+margin-left: 50%;
+margin-top: -30%;
+margin-bottom: 20%;
+
+
+}
+
+label{
+
+    color: red;
+
+}
+
+input{
+    text-align: center;
+
+}
+
+h2{
+width: 20%;
+height: 40px;
+background-color:black;
+color: white;
+border: 2px solid red;
+border-radius: 30px;
+padding-left: 150px;
+margin-left: 30%;
+margin-top: -90;
+
+
+}
+
+
+.parent2{
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end ;
+    flex-direction: row;
+    align-content: center;
+}
+.item{
+    width: 250px;
+    height: 180px;
+    background-color: rgb(58, 232, 232);
+    color: blue;
+    border: 2px solid green;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5px;
+    margin: 20px;
+    margin-left: 20px;
+    line-height: 18px;
+
+}
+
+.itemh{
+    padding-left: 25px;
+    font-size: 15px;
+    padding-top: 5px;
+
+}
+.item8{
+    height: 200px;
+    padding-top: 20px;
+}
